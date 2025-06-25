@@ -7,8 +7,8 @@
 #
 # This script will help users to communicate and retrieve information from GitHub
 # Usage:
-#   Please provide your github token and rest api to the script as input
-#
+#   Please provid
+#this is comments 
 #
 ################################
 
@@ -27,7 +27,7 @@ TMPFILE=`mktemp /tmp/${temp}.XXXXXX` || exit 1
 
 
 function rest_call {
-    curl -s $1 -H "${GITHUB_API_HEADER_ACCEPT}" -H "Authorization: token $GITHUB_TOKEN" >> $TMPFILE
+    curl -s $1 -H "${GITHUB_API_HEADER_ACCEPT}" -H "Authorization: token $GITHUB_TOKEN" >> $TMPFI
 }
 
 # single page result-s (no pagination), have no Link: section, the grep result is empty
